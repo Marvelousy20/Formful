@@ -11,8 +11,8 @@ const Interchange = ({ iconRight, icon, description, iconLeft }: Props) => {
   return (
     <div className="mb-16">
       {iconRight && (
-        <div className="flex justify-between">
-          <div className="text-xl text-[#666666] max-w-[35rem] leading-[40px]">
+        <div className="flex items-center justify-center gap-x-60">
+          <div className="text-xl text-[#141414] max-w-[35rem] leading-[40px]">
             {description}
           </div>
           {icon}
@@ -20,9 +20,9 @@ const Interchange = ({ iconRight, icon, description, iconLeft }: Props) => {
       )}
 
       {iconLeft && (
-        <div className="flex justify-between">
+        <div className="flex items-center justify-center gap-x-60">
           {icon}
-          <div className="text-xl text-[#666666] max-w-[35rem] leading-[40px]">
+          <div className="text-xl text-[#141414] max-w-[35rem] leading-[40px]">
             {description}
           </div>
         </div>
