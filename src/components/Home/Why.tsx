@@ -4,7 +4,7 @@ import InterchangeLayout from "./InterchangeLayout";
 const Why = () => {
   return (
     <div className="pt-[4rem] font-poppins">
-      <h3 className="font-sora text-[3.6rem] text-[#332DCC] mb-[3rem]">
+      <h3 className="text-[2.5rem] md:text-[3.6rem] text-[#332DCC] mb-[3rem]">
         Why use formful?
       </h3>
       <InterchangeLayout

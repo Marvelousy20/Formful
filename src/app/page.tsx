@@ -4,7 +4,7 @@ import Why from "@/components/Home/Why";
 
 export default function Home() {
   return (
-    <main className="px-20 pt-36 max-w-[1440px] mx-auto">
+    <main className="px-4 md:px-20 pt-36 overflow-hidden">
       <Hero />
       <Why />
       <LearnMore />

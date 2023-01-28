@@ -1,7 +1,7 @@
 const LearnMore = () => {
   return (
-    <div className="py-20 font-poppins">
-      <h3 className="text-[3.6rem] text-[#332DCC] mb-1">
+    <div className="pb-20 font-poppins">
+      <h3 className="text-[2.5rem] md:text-[3.6rem] text-[#332DCC] mb-1">
         Interested in learning more?
       </h3>
 
